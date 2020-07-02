@@ -18,7 +18,8 @@ class Blockchain:
     for i in range(len(self.chain)):
       current_block = self.chain[i]
       print("Block {} {}".format(i, current_block))
-      current_block.print_contents()    
+      current_block.print_contents()
+      print()    
   
   # add block to blockchain `chain`
   def add_block(self, transactions):
